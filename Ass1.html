@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Jordan Valentine">
+    <title>Image Sensors | Ass_1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="image_sensor.js"></script>
+  </head>
+  <body>
+  <main>
+  <header>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="Ass1.html">Ass_1</a></li>
+          <li><a href="Ass2.html">Ass_2</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <br>
+    <h1 class="Ass">Assignment 1</h1>
+    <!-- Choose File -->
+    <section class="center">
+      <div class="container">
+        <input type = "file" id = "openFile" />
+      </div>
+      <pre id="fileContents"></pre>
+    </section>
+    <!-- Easy file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="jvalen15_easy()">load jvalen15_easy.txt and click here</button>
+      </div>
+    </section>
+    <!-- Medium file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="jvalen15_medium()">load jvalen15_medium.txt and click here</button>
+      </div>
+    </section>
+    <!-- Hard file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="jvalen15_hard()">load jvalen15_hard.txt and click here</button>
+      </div>
+    </section>
+    <br>
+    <!-- Easy/Medium Canvas -->
+    <canvas id="viewport" width="256" height="256" style="border:1px solid #000000;"></canvas>
+    <br>
+    <!-- Hard Canvas -->
+    <canvas id="viewporthard" width="512" height="512" style="border:1px solid red;"></canvas>
+    <br>
+
+  </main>
+    <footer>
+      <p>Jordan Valentine Image Sensors, Copyright &copy; 2020</p>
+      <br/>
+    </footer>
+  </body>
+</html>
