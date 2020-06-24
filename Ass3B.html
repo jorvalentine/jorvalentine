@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Jordan Valentine">
+    <title>Image Sensors | Ass_3B</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="3b.js"></script>
+  </head>
+  <body>
+  <main>
+  <header>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Ass_1</a></li>
+          <li><a href="Ass2.html">Ass_2</a></li>
+          <li><a href="Ass3A.html">Ass_3A</a></li>
+          <li><a href="Ass3B.html">Ass_3B</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <br>
+    <h1 class="Ass">Assignment 3 Part B</h1>
+    <h1 class="Ass">We will be turning images to kernels!</h1>
+    <!-- Choose File -->
+    <section class="center">
+      <div class="container">
+        <input type = "file" id = "openFile" />
+      </div>
+      <pre id="fileContents"></pre>
+    </section>
+    <!-- Easy file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="identity()">load 1.txt and click here (Identity)</button>
+      </div>
+    </section>
+    <!-- Medium file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="edge()">load 2.txt and click here (Edge Detection)</button>
+      </div>
+    </section>
+    <!-- Hard file -->
+    <section class = "center">
+      <div class = "container">
+        <button onclick="gaussian()">load 3.txt and click here (Gaussian Blur)</button>
+      </div>
+    </section>
+
+  </main>
+    <footer>
+      <p>Jordan Valentine Image Sensors, Copyright &copy; 2020</p>
+      <br/>
+    </footer>
+  </body>
+</html>
