@@ -8,6 +8,15 @@
   padding: 10px;
 }
 
+.Ass1 {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
 .center {
   margin: auto;
   width: 50%;
@@ -59,27 +68,26 @@
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-size: .8em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
-  margin: 20px;
+  margin: 30px;
 }
 
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: grey;
   display: block;
   transition: .3s background-color;
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+  color: white;
 }
 
 .nav a.active {
-  background-color: #fff;
-  color: #444;
+  color: white;
   cursor: default;
 }
 
